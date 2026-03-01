@@ -1,0 +1,37 @@
+.pre {
+  margin: 0;
+  padding: 1rem;
+  overflow: auto;
+  max-height: 100%;
+  font-size: 0.875rem;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, Consolas, monospace;
+  line-height: 1.6;
+  tab-size: 2;
+}
+
+.key {
+  color: var(--rfc-json-key, #0550ae);
+}
+
+.string {
+  color: var(--rfc-json-string, #0a3069);
+}
+
+.number {
+  color: var(--rfc-json-number, #0550ae);
+}
+
+.boolean {
+  color: var(--rfc-json-boolean, #cf222e);
+}
+
+.null {
+  color: var(--rfc-json-null, #6e7781);
+  font-style: italic;
+}
+
+.error {
+  padding: 1rem;
+  color: var(--rfc-error-color, #ef4444);
+  font-style: italic;
+}

@@ -1,0 +1,11 @@
+.pre {
+  margin: 0;
+  padding: 1rem;
+  overflow: auto;
+  max-height: 100%;
+  font-size: 0.875rem;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, Consolas, monospace;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

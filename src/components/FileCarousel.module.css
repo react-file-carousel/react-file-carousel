@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--rfc-border, #e2e8f0);
+  border-radius: var(--rfc-radius, 0.5rem);
+  overflow: hidden;
+  background: var(--rfc-bg, #ffffff);
+  font-family: var(--rfc-font, system-ui, -apple-system, sans-serif);
+  color: var(--rfc-color, #0f172a);
+  height: 100%;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 2rem;
+  color: var(--rfc-muted-color, #94a3b8);
+  font-style: italic;
+}

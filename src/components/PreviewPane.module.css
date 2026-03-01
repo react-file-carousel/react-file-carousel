@@ -1,0 +1,5 @@
+.pane {
+  flex: 1;
+  overflow: auto;
+  background: var(--rfc-preview-bg, #ffffff);
+}

@@ -1,0 +1,59 @@
+{
+  "name": "react-file-carousel",
+  "version": "1.0.0",
+  "description": "A lightweight React file previewer carousel component",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0"
+  },
+  "keywords": [
+    "react",
+    "file",
+    "preview",
+    "carousel",
+    "viewer",
+    "csv",
+    "json"
+  ],
+  "author": "react-file-carousel contributors",
+  "contributors": [
+    {
+      "name": "Tianwei Liu",
+      "url": "https://github.com/TLiu2014"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-file-carousel/react-file-carousel"
+  },
+  "bugs": {
+    "url": "https://github.com/react-file-carousel/react-file-carousel/issues"
+  },
+  "homepage": "https://github.com/react-file-carousel/react-file-carousel#readme"
+}
