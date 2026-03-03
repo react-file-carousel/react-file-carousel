@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { FileCarousel, type FileData } from 'react-file-carousel';
+import { MuiExample } from './examples/MuiExample';
+import { TailwindExample } from './examples/TailwindExample';
 
 const sampleFiles: FileData[] = [
   {
@@ -306,6 +308,25 @@ function App() {
             onExpandedChange={setExpanded}
           />
         </div>
+      </section>
+
+      <hr style={{ border: 'none', borderTop: '1px solid #e2e8f0', margin: '2rem 0' }} />
+
+      {/* Styling examples */}
+      <section style={sectionStyle}>
+        <h2 style={headingStyle}>With Material UI</h2>
+        <p style={{ fontSize: '0.875rem', color: '#64748b', marginBottom: '0.5rem' }}>
+          Same carousel using <code>components</code> prop with MUI Button and Table.
+        </p>
+        <MuiExample files={sampleFiles} />
+      </section>
+
+      <section style={sectionStyle}>
+        <h2 style={headingStyle}>With Tailwind CSS</h2>
+        <p style={{ fontSize: '0.875rem', color: '#64748b', marginBottom: '0.5rem' }}>
+          Same carousel using <code>classNames</code> prop with Tailwind utility classes.
+        </p>
+        <TailwindExample files={sampleFiles} />
       </section>
 
       <hr style={{ border: 'none', borderTop: '1px solid #e2e8f0', margin: '2rem 0' }} />
